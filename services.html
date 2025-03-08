@@ -1,46 +1,70 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <title>خدماتنا</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <header>
-        <h1>خدماتنا التعليمية</h1>
+</head>
+
+<body class="bg-light">
+
+    <header class="bg-warning text-center p-4">
+        <h1 class="bg-warning text-center ">خدماتنا التعليمية</h1>
     </header>
 
-    <section class="services">
-        <div class="service-card">
-            <i class="fa fa-book-open"></i>
-            <h2>تعلم الحروف العربية</h2>
-            <p>اكتشف الحروف العربية بطريقة ممتعة وتفاعلية للأطفال.</p>
-            <a href="letters.html">ابدأ التعلم</a>
-        </div>
+    <section class="container mt-5">
+        <div class="row g-4">
 
-        <div class="service-card">
-            <i class="fa fa-book"></i>
-            <h2>القصص التفاعلية</h2>
-            <p>اقرأ واستمع للقصص التعليمية التي تحفّز الخيال والإبداع.</p>
-            <a href="stories.html">اقرأ قصة</a>
-        </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center shadow-sm p-3">
+                    <i class="fa-solid fa-book-open text-warning display-4"></i>
 
-        <div class="service-card">
-            <i class="fa fa-gamepad"></i>
-            <h2>الألعاب التعليمية</h2>
-            <p>ألعاب ممتعة تساعد على التعلم بطريقة مسلية وشيّقة.</p>
-            <a href="games.html">العب الآن</a>
-        </div>
+                    <div class="card-body">
+                        <h3 class="card title">تعلم الحروف العربية</h2>
+                            <p class="card-text">اكتشف الحروف العربية بطريقة ممتعة وتفاعلية للأطفال.</p>
+                            <a href="letters.html" class="btn btn-outline-warning">ابدأ التعلم</a>
+                    </div>
+                </div>
+            </div>
 
-        <div class="service-card">
-            <i class="fa fa-video"></i>
-            <h2>الفيديوهات التعليمية</h2>
-            <p>شاهد دروسًا مرئية تساعد الأطفال على التعلم بطريقة ممتعة.</p>
-            <a href="videos.html">شاهد الفيديوهات</a>
-        </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center shadow-sm p-3">
+                    <i class="fa fa-book text-warning display-4"></i>
+                    <div class="card-body">
+                        <h3 class="card-title">القصص التفاعلية</h2>
+                            <p class="card-text">اقرأ واستمع للقصص التعليمية التي تحفّز الخيال والإبداع.</p>
+                            <a href="stories.html" class="btn btn-outline-warning">اقرأ قصة</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center shadow-sm p-3">
+                    <i class="fa fa-gamepad text-warning display-4"></i>
+                    <div class="card-body">
+                        <h3 class="card-title">الالعاب التعليمية</h3>
+                        <p class="card-text">ألعاب ممتعة تساعد على التعلم بطريقة مسلية وشيّقة.</p>
+                        <a href="games.html" class="btn btn-outline-warning">العب الآن</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card text-center shadow-sm p-3">
+                    <i class="fa fa-video text-warning display-4"></i>
+
+                    <div class="card-body">
+                        <h3 class="card-title">الفيديوهات التعليمية</h2>
+                            <p class="card-text">شاهد دروسًا مرئية تساعد الأطفال على التعلم بطريقة ممتعة.
+                            </p>
+                            <a href="videos.html" class="btn btn-outline-warning">شاهد الفيديوهات</a>
+                    </div>
+                </div>
+            </div>
     </section>
 
 </body>
+
 </html>
