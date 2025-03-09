@@ -30,8 +30,11 @@
 
 استحدمنا: HTML و CSS و Bootstrap (للاستجابة والتصميم).
                                                                                                                                                                                 
-## كيفية التشغيل اHow to run:  
+## كيفية التشغيل: How to run:  
 اولا قم باستنساخ المشروع clone  
 ثم افتح المشروع على index.html على اي متصفح chrom,edge,...  
 ومن صفحة index.html نسنطيع المرور على باقي الصفحات مثل الخدمات, من نحن, اتصل بنا, ...
+
+![image](https://github.com/user-attachments/assets/c011f4f8-025a-490f-b567-932c3b4e0c4b)
+
 
